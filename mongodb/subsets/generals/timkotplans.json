@@ -1,0 +1,8006 @@
+[{
+  "_id": {
+    "$oid": "63402d5c69748bb5b2f6d0a9"
+  },
+  "name": "free",
+  "user": "JuanC",
+  "type": "duda",
+  "features": [
+    "dashboard",
+    "media",
+    "employes"
+  ],
+  "params": {
+    "app_uuid": "2e72e5aa-ebf9-415b-983b-b337567cf486",
+    "dudaPlanId": "317583d8-be68-4d14-a1d2-8be06be5b17a",
+    "description": "description of duda free plan",
+    "features": [
+      "all options"
+    ],
+    "grade": 0,
+    "warningsBlocked": true
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "63402d7e69748bb5b2f6d0aa"
+  },
+  "name": "starter",
+  "user": "JuanC",
+  "type": "duda",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "schedules": 2,
+    "app_uuid": "2e72e5aa-ebf9-415b-983b-b337567cf486",
+    "dudaPlanId": "d8035e55-43c7-40b7-bc33-308a3145fc98",
+    "description": "Para la gestión esencial del negocio. Ideal para quien maneje productos y servicios y deseen gestionar",
+    "features": [
+      "Gestión de citas (1 agenda)",
+      "Gestión de listas de espera",
+      "Widgets de reservas omnicanal",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de productos"
+    ],
+    "grade": 1
+  },
+  "__v": 3,
+  "datemod": {
+    "$date": "2022-11-04T15:53:19.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "63402d9e69748bb5b2f6d0ab"
+  },
+  "name": "professional",
+  "user": "JuanC",
+  "type": "duda",
+  "features": [
+    "media",
+    "employes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "app_uuid": "2e72e5aa-ebf9-415b-983b-b337567cf486",
+    "dudaPlanId": "86539ac4-9d39-4b19-bf1d-50fc0f7a37c2",
+    "description": "una descripcion",
+    "features": [
+      "Todas las funcionalidades de Essential + más",
+      "3 agendas",
+      "Gestión salarios y comisiones",
+      "Historial de cliente/paciente",
+      "Firma digital de documentos",
+      "Presupuestos"
+    ],
+    "price": "250",
+    "grade": 2
+  }
+},
+{
+  "_id": {
+    "$oid": "63402dad69748bb5b2f6d0ac"
+  },
+  "name": "enterprise",
+  "user": "JuanC",
+  "type": "duda",
+  "features": [
+    "media",
+    "employes"
+  ],
+  "params": {
+    "app_uuid": "2e72e5aa-ebf9-415b-983b-b337567cf486",
+    "dudaPlanId": "29a0ac6e-57e6-4adb-bca2-6eafb3c12ba2",
+    "description": "una descripcion",
+    "features": [
+      "Todas las funcionalidades Business más",
+      "5 agendas",
+      "Campañas de e-mail marketing (2000 e-mails/mes)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)."
+    ],
+    "price": "100",
+    "grade": 3
+  }
+},
+{
+  "_id": {
+    "$oid": "634aba1e5f7f461736d2f4a8"
+  },
+  "name": "Guru Essential",
+  "user": "Javier",
+  "type": "",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "ticketListDemo",
+    "importClientsRoutes",
+    "employes"
+  ],
+  "params": {
+    "grade": 0
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "634d56cabd4cf7e1c6cb75ea"
+  },
+  "name": "Guru Essential+",
+  "user": "Javier",
+  "type": "",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "employes"
+  ],
+  "params": {
+    "grade": 1
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "634d8db96e3210161863167b"
+  },
+  "name": "GURU FREE",
+  "user": "Javier",
+  "type": "guru",
+  "features": [
+    "dashboard",
+    "webtimkot",
+    "premiumsbillguard",
+    "guruRoutes"
+  ],
+  "params": {
+    "grade": 0,
+    "warningsBlocked": true
+  },
+  "__v": 1,
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "634dc05706647214034f5336"
+  },
+  "name": "ADN STARTER 1 SCHEDULES",
+  "user": "Javier",
+  "type": "adn",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 2,
+    "upgradeGrade": 1,
+    "schedules": 1,
+    "analytics": false,
+    "price": 1.5,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "13bc47d9-9370-4c8b-978f-e3349bb17a23",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 1,
+  "datemod": {
+    "$date": "2022-11-09T17:11:31.279Z"
+  },
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "634df4a506647214034f5337"
+  },
+  "name": "ADN PROFESSIONAL 1 SCHEDULES",
+  "user": "Javier",
+  "type": "adn",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 12,
+    "upgradeGrade": 2,
+    "schedules": 1,
+    "analytics": false,
+    "price": 3.68,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "0c592511-28f5-4190-9639-79c07cbc87b1",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 1,
+  "datemod": {
+    "$date": "2022-11-09T19:38:40.361Z"
+  },
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "634dfd1106647214034f5338"
+  },
+  "name": "Gympass freemium",
+  "user": "Javier",
+  "type": "gympass",
+  "features": [
+    "employes",
+    "configPremiumBills",
+    "gympassAccessControl",
+    "clients",
+    "book",
+    "ticketListDemo"
+  ],
+  "params": {
+    "grade": 0
+  },
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "6361536eeebe388843a2a6da"
+  },
+  "datemod": {
+    "$date": "2022-11-09T17:13:47.404Z"
+  },
+  "name": "ADN FREE",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "budgets",
+    "clients",
+    "dashboard",
+    "book",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "media",
+    "employes"
+  ],
+  "params": {
+    "dudaPlanId": "ad63009e-8228-4ecc-9bf6-b79625f9181d",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "upgradeGrade": 0,
+    "dudaGrade": 32,
+    "schedules": 1,
+    "price": 5,
+    "description": "Plan grátis bewe adn",
+    "features": [
+      "Gestión de Horarios + Lista de Espera",
+      "Widgets de reservas y comercio electrónico",
+      "Recordatorios de citas",
+      "CRM",
+      "Gestión De Servicios",
+      "Gestion de Stocks",
+      "Gestión de proveedores",
+      "Punto de venta",
+      "Presupuestos y Facturación",
+      "Gestión de efectivo",
+      "Payroll",
+      "Dashboard + Reporting",
+      "Integración YEXT",
+      "Integracíón Duda",
+      "ADN para negocios",
+      "ADN para clientes"
+    ]
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c027fb4cd0dfc6e33b5e2"
+  },
+  "datemod": {
+    "$date": "2022-11-09T19:48:32.554Z"
+  },
+  "name": "ADN STARTER 2 SCHEDULES",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 3,
+    "upgradeGrade": 1,
+    "schedules": 2,
+    "analytics": false,
+    "price": 2.55,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "ecccf929-ec70-462e-8f5a-49f6e4d50775",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0438b4cd0dfc6e33c44e"
+  },
+  "datemod": {
+    "$date": "2022-11-09T19:53:57.377Z"
+  },
+  "name": "ADN STARTER 3 SCHEDULES",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 4,
+    "upgradeGrade": 1,
+    "schedules": 3,
+    "analytics": false,
+    "price": 3.6,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "f191d9d8-bcbd-4c42-8033-2866e9468ca4",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 1,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0bddb4cd0dfc6e341166"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:21:49.219Z"
+  },
+  "name": "ADN STARTER 4 SCHEDULES",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 5,
+    "upgradeGrade": 1,
+    "schedules": 4,
+    "analytics": false,
+    "price": 4.65,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "73e1d758-0e8f-4f18-9fab-e2b5f5a5017a",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0bfcb4cd0dfc6e3412e4"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:22:20.748Z"
+  },
+  "name": "ADN STARTER 10000 SCHEDULES",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments",
+    "configClients"
+  ],
+  "params": {
+    "dudaGrade": 6,
+    "upgradeGrade": 1,
+    "schedules": 10000,
+    "analytics": false,
+    "price": 5.7,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "717485d0-292d-4fb2-bb26-085d90f038b3",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0c4db4cd0dfc6e341672"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:23:41.680Z"
+  },
+  "name": "ADN PROFESSIONAL 2 AGENDAS",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 13,
+    "upgradeGrade": 2,
+    "schedules": 2,
+    "analytics": false,
+    "price": 4.73,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "a315d643-51d4-4c83-baf0-0f9d2cc9ecdf",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0cafb4cd0dfc6e341a6a"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:25:19.968Z"
+  },
+  "name": "ADN PROFESSIONAL 3 AGENDAS",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 14,
+    "upgradeGrade": 2,
+    "schedules": 3,
+    "analytics": false,
+    "price": 5.78,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "6a925567-c71d-4ec0-be41-189b08287a66",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0cd1b4cd0dfc6e341b5a"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:25:53.090Z"
+  },
+  "name": "ADN PROFESSIONAL 4 AGENDAS",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 15,
+    "upgradeGrade": 2,
+    "schedules": 4,
+    "analytics": false,
+    "price": "8.40",
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "f4bbaa9f-6076-4de6-9d26-1407a546a627",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0cf2b4cd0dfc6e341cee"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:26:26.023Z"
+  },
+  "name": "ADN PROFESSIONAL 10000 SCHEDULES",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 16,
+    "upgradeGrade": 2,
+    "schedules": 10000,
+    "analytics": false,
+    "price": 7.88,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "0498cd74-eba5-4f3d-8013-82f53055856f",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "636c0d1db4cd0dfc6e341f23"
+  },
+  "datemod": {
+    "$date": "2022-11-09T20:27:09.033Z"
+  },
+  "name": "ADN STARTER UPGRADE FREE",
+  "user": "60dc790b2bf3ad37f1acc035",
+  "features": [
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaPlanId": "c689e9a5-ded1-4399-9ec5-3dbaf3fb73b0",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "price": "9.45",
+    "is_hidden": true
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6387b64998362acf781deb3c"
+  },
+  "datemod": {
+    "$date": "2022-11-30T20:00:09.974Z"
+  },
+  "name": "SPECIAL MIGRATION SITES (ADN)",
+  "user": "634f1ebc488dde19e9f54dd7",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 3.68,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "dc78c19d-c9c9-4568-958a-3d21da4c967f",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63974bb75000b409c6468b05"
+  },
+  "datemod": {
+    "$date": "2022-12-12T15:41:43.846Z"
+  },
+  "name": "GURU STARTER",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "price": 1.5,
+    "schedules": 1,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "639758c15000b409c646a030"
+  },
+  "datemod": {
+    "$date": "2022-12-12T16:37:21.471Z"
+  },
+  "name": "GURU PROFESIONAL PLUS",
+  "user": "jhoan",
+  "features": [
+    "socialMedia",
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "credentials",
+    "uploadFiles"
+  ],
+  "params": {
+    "grade": 2,
+    "schedules": 1
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a1e5910e0b54ad158a52f5"
+  },
+  "datemod": {
+    "$date": "2022-12-20T16:40:49.068Z"
+  },
+  "name": "GURU STARTER 2 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "credentials",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "price": 2.55,
+    "schedules": 2,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a1e5e90e0b54ad158a538e"
+  },
+  "datemod": {
+    "$date": "2022-12-20T16:42:17.923Z"
+  },
+  "name": "GURU STARTER 3 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "price": 3.6,
+    "schedules": 3,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a1e6040e0b54ad158a53b2"
+  },
+  "datemod": {
+    "$date": "2022-12-20T16:42:44.312Z"
+  },
+  "name": "GURU STARTER 4 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "price": 4.65,
+    "schedules": 4,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a1e7e10e0b54ad158a545f"
+  },
+  "datemod": {
+    "$date": "2022-12-20T16:50:41.830Z"
+  },
+  "name": "GURU STARTER ILIMITADO",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "price": 5.7,
+    "schedules": 10000,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a1ea030e0b54ad158a5561"
+  },
+  "datemod": {
+    "$date": "2022-12-20T16:59:47.277Z"
+  },
+  "name": "GURU STARTER 1 AGENDA + REDES",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "socialMedia",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a206e30e0b54ad158a82e2"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:02:59.484Z"
+  },
+  "name": "GURU STARTER 2 AGENDA + REDES",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "socialMedia",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a207ca0e0b54ad158a83ed"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:06:50.127Z"
+  },
+  "name": "GURU STARTER 3 AGENDA + REDES",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "socialMedia",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a20b0b0e0b54ad158a87de"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:20:43.555Z"
+  },
+  "name": "GURU STARTER 4 AGENDA + REDES",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "socialMedia",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a20cbb0e0b54ad158a8a9d"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:27:55.666Z"
+  },
+  "name": "GURU STARTER ILIMITADO + REDES",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "socialMedia",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "schedules": 10000,
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a212df0e0b54ad158a97c1"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:54:07.155Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 2 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "premiumsbillguard",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 2,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a213340e0b54ad158a989d"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:55:32.165Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 3 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "premiumsbillguard",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 3,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a2134a0e0b54ad158a98d2"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:55:54.498Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 4 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "premiumsbillguard",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 4,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a2134a0e0b54ad158a98d6"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:55:54.775Z"
+  },
+  "name": " TEST GURU PROFESIONAL+ 4 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 4,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63a213c40e0b54ad158a99bf"
+  },
+  "datemod": {
+    "$date": "2022-12-20T19:57:56.268Z"
+  },
+  "name": "GURU PROFESIONAL PLUS ILIMITADO",
+  "user": "Jhoan",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "reports",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63a214880e0b54ad158a9c3c"
+  },
+  "datemod": {
+    "$date": "2022-12-20T20:01:12.452Z"
+  },
+  "name": "GURU PROFESIONAL PLUS ILIMITADO + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a214d30e0b54ad158a9c9f"
+  },
+  "datemod": {
+    "$date": "2022-12-20T20:02:27.954Z"
+  },
+  "name": "GURU PROFESIONAL PLUS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a214ff0e0b54ad158a9cfc"
+  },
+  "datemod": {
+    "$date": "2022-12-20T20:03:11.994Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 2 AGENDAS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a2151b0e0b54ad158a9d27"
+  },
+  "datemod": {
+    "$date": "2022-12-20T20:03:39.361Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 3 AGENDAS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "socialMedia",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63a215430e0b54ad158a9d53"
+  },
+  "datemod": {
+    "$date": "2022-12-20T20:04:19.457Z"
+  },
+  "name": "GURU PROFESIONAL PLUS 4 AGENDAS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63aa0c88735c1234bd51595e"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:05:12.069Z"
+  },
+  "name": "ADN DEPREACTED",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "timkotUpgrades",
+    "appBusiness",
+    "appClients"
+  ],
+  "params": {
+    "dudaGrade": 0,
+    "upgradeGrade": 0,
+    "schedules": 0,
+    "analytics": false,
+    "price": 0,
+    "nameType": "None",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de Horarios + Lista de Espera",
+      "Widgets de reservas y comercio electrónico",
+      "Recordatorios de citas",
+      "CRM",
+      "Gestión De Servicios",
+      "Gestion de Stocks",
+      "Gestión de proveedores",
+      "Punto de venta",
+      "Presupuestos y Facturación",
+      "Gestión de efectivo",
+      "Payroll",
+      "Dashboard + Reporting",
+      "Integración YEXT",
+      "Integracíón Duda",
+      "ADN para negocios",
+      "ADN para clientes"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63aa0c8d735c1234bd515963"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:05:17.773Z"
+  },
+  "name": "ADN STARTER 1 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 7,
+    "upgradeGrade": 1,
+    "schedules": 1,
+    "analytics": true,
+    "price": 3.6,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "7823460b-2207-4d49-8af9-503280737d54",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Gestion de redes sociales",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63aa0e4e735c1234bd515a2c"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:12:46.432Z"
+  },
+  "name": "ADN STARTER 2 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 8,
+    "upgradeGrade": 1,
+    "schedules": 2,
+    "analytics": true,
+    "price": 4.65,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "4f3e9930-3c76-402a-963f-42bfc09aec82",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Gestion de redes sociales",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63aa0faa735c1234bd515b12"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:18:34.309Z"
+  },
+  "name": "ADN STARTER 3 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 9,
+    "upgradeGrade": 1,
+    "schedules": 3,
+    "analytics": true,
+    "price": 5.7,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "29604e4f-4cf7-4b2b-9041-9d0354f94032",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Gestion de redes sociales",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63aa1044735c1234bd515b7e"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:21:08.065Z"
+  },
+  "name": "ADN STARTER 4 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 10,
+    "upgradeGrade": 1,
+    "schedules": 4,
+    "analytics": true,
+    "price": 6.75,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "690d8a07-e73c-484d-97a9-b1fb92d8508d",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Gestion de redes sociales",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63aa10d8735c1234bd515bce"
+  },
+  "datemod": {
+    "$date": "2022-12-26T21:23:36.601Z"
+  },
+  "name": "ADN STARTER 10000 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 11,
+    "upgradeGrade": 1,
+    "schedules": 10000,
+    "analytics": true,
+    "price": 7.8,
+    "nameType": "Starter",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "97840c9d-ebaf-4a8a-9096-312ce9744469",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio.",
+    "features": [
+      "Gestión de citas",
+      "Confirmaciones y recordatorios de cita",
+      "Gestión de clientes (CRM)",
+      "Gestión de servicios",
+      "Gestión de empleados y recursos",
+      "Gestion de redes sociales",
+      "Widgets de reservas omnicanal",
+      "App para Clientes",
+      "App para Negocios"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab5071735c1234bd5255e2"
+  },
+  "datemod": {
+    "$date": "2022-12-27T20:07:13.373Z"
+  },
+  "name": "ADN PROFESSIONAL 1 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "socialMedia",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 17,
+    "upgradeGrade": 2,
+    "schedules": 1,
+    "analytics": true,
+    "price": 5.78,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "f169858f-9125-441b-907b-80518f7fd6f2",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab5224735c1234bd525f91"
+  },
+  "datemod": {
+    "$date": "2022-12-27T20:14:28.534Z"
+  },
+  "name": "ADN PROFESSIONAL 2 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 18,
+    "upgradeGrade": 2,
+    "schedules": 2,
+    "analytics": true,
+    "price": 6.83,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "33420d13-4ac1-410a-8ae5-f99d8285bad6",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab534d735c1234bd526094"
+  },
+  "datemod": {
+    "$date": "2022-12-27T20:19:25.702Z"
+  },
+  "name": "ADN PROFESSIONAL 3 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 19,
+    "upgradeGrade": 2,
+    "schedules": 3,
+    "analytics": true,
+    "price": 7.88,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "e0688c0b-a67e-458b-bffe-c88e0dc9b269",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab54ac735c1234bd5260ec"
+  },
+  "datemod": {
+    "$date": "2022-12-27T20:25:16.325Z"
+  },
+  "name": "ADN PROFESSIONAL 4 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 20,
+    "upgradeGrade": 2,
+    "schedules": 4,
+    "analytics": true,
+    "price": 8.93,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "9114cde6-192d-4832-86ee-7a8b76d2e63d",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab55e1735c1234bd5264a2"
+  },
+  "datemod": {
+    "$date": "2022-12-27T20:30:25.660Z"
+  },
+  "name": "ADN PROFESSIONAL 10000 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "employes",
+    "socialMedia",
+    "resources",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 21,
+    "upgradeGrade": 2,
+    "schedules": 10000,
+    "analytics": true,
+    "price": 9.98,
+    "nameType": "Professional",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "cabd2fa5-fcdd-43a5-975d-e9da2e35180e",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Starter +",
+      "Gestión de listas de espera",
+      "Funcionalidades para sector salud (Historial Clínico y Seguimientos)",
+      "Gestión de productos/stock",
+      "Gestión de proveedores",
+      "Gestión de cobros (POS)",
+      "POS online (coste de pasarela de pago aparte)",
+      "Facturación",
+      "Control y cierre de caja",
+      "Gestión de documentos (hasta 500 MB)",
+      "Informes avanzados de negocio"
+    ],
+    "is_hidden": false
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab5e54735c1234bd526c8e"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:06:28.903Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 1 SCHEDULES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "importClientsRoutes",
+    "budgets",
+    "appclients",
+    "appBusiness",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 22,
+    "upgradeGrade": 3,
+    "schedules": 1,
+    "analytics": false,
+    "price": 5.25,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "d81d5a67-586b-4a82-a143-944119a5d144",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab5f12735c1234bd526d1f"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:09:38.258Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 2 SCHEDULES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 23,
+    "upgradeGrade": 3,
+    "schedules": 2,
+    "analytics": false,
+    "price": 6.3,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "24461df4-b7b8-4ab0-a608-65ee917266a1",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab5f91735c1234bd526ddb"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:11:45.268Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 3 SCHEDULES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 24,
+    "upgradeGrade": 3,
+    "schedules": 3,
+    "analytics": false,
+    "price": 7.35,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "052c2594-440e-4f83-ba0c-71a23a570e46",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab6072735c1234bd526fd0"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:15:30.578Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 4 SCHEDULES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "resources",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 25,
+    "upgradeGrade": 3,
+    "schedules": 4,
+    "analytics": false,
+    "price": 8.4,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "bcc84cf0-5832-4b25-a12c-53ecb3195237",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab60a9735c1234bd527010"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:16:25.868Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 10000 SCHEDULES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 26,
+    "upgradeGrade": 3,
+    "schedules": 10000,
+    "analytics": false,
+    "price": 9.45,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "c93399a4-735c-44fa-8374-7e9ebfbf44e6",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab60fd735c1234bd527021"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:17:49.724Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 1 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 27,
+    "upgradeGrade": 3,
+    "schedules": 1,
+    "analytics": true,
+    "price": 7.35,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "613bfb88-5f73-4b99-b705-f6abe6beab8e",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab613c735c1234bd52703e"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:18:52.245Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 2 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "employes",
+    "reports",
+    "productOrder",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 28,
+    "upgradeGrade": 3,
+    "schedules": 2,
+    "analytics": true,
+    "price": 8.4,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "fb6102b9-bfca-462c-b0ae-64a650c9500d",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab6191735c1234bd527074"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:20:17.924Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 3 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "employes",
+    "reports",
+    "productOrder",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 29,
+    "upgradeGrade": 3,
+    "schedules": 3,
+    "analytics": true,
+    "price": 9.45,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "a0e1acca-f220-4318-994f-43b63e2c3d2f",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab620c735c1234bd527162"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:22:20.052Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 4 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "bonus",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 30,
+    "upgradeGrade": 3,
+    "schedules": 4,
+    "analytics": true,
+    "price": 10.5,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "ca13e6af-d600-4dd2-bdb5-a51c5004f681",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63ab624e735c1234bd5271a8"
+  },
+  "datemod": {
+    "$date": "2022-12-27T21:23:26.447Z"
+  },
+  "name": "ADN PROFESSIONAL PLUS 10000 SCHEDULES - REDES",
+  "user": "JuanCJC",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "bonus",
+    "employes",
+    "appcClients",
+    "appBusiness",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaGrade": 31,
+    "upgradeGrade": 3,
+    "schedules": 10000,
+    "analytics": true,
+    "price": 11.55,
+    "nameType": "Professional Plus",
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "275b5085-a5d2-4f6c-a237-08606d8e5f36",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Toda la funcionalidad Professional +",
+      "Campañas de e-mail marketing + plantillas de e-mail (hasta 2.000 correos)",
+      "Tareas automáticas",
+      "SMS/whatsapp business (con coste adicional)",
+      "Gestión de ofertas y promociones",
+      "Tarjetas regalo / cupones",
+      "Presupuestos",
+      "Gestión de salarios y comisiones",
+      "Firma digital de documentos",
+      "Cobros recurrentes de bonos/suscripciones (coste de pasarela de pago aparte)"
+    ],
+    "is_hidden": false,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "type": "adn",
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "63c96f7eda514ecd2fdf38d7"
+  },
+  "datemod": {
+    "$date": "2023-01-19T16:27:42.734Z"
+  },
+  "name": "GYMPASS TEST",
+  "user": "Javier",
+  "features": [
+    "subscriptions",
+    "wellness",
+    "cashier",
+    "budgets",
+    "blockTicketList",
+    "commissions",
+    "business",
+    "cashDaily",
+    "orders",
+    "bills"
+  ],
+  "params": {
+    "grade": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f4f55b766936c50a7d5b17"
+  },
+  "datemod": {
+    "$date": "2023-02-21T16:46:19.106Z"
+  },
+  "name": "GURU PROFESIONAL 3 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "socialMedia",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "3",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63f4f606766936c50a7d5b74"
+  },
+  "datemod": {
+    "$date": "2023-02-21T16:49:10.535Z"
+  },
+  "name": "GURU PROFESIONAL",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "1",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63f7741c49e61651afc0249b"
+  },
+  "datemod": {
+    "$date": "2023-02-23T14:11:40.969Z"
+  },
+  "name": "GURU PROFESIONAL 2 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "2",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63f7965649e61651afc049ed"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:37:42.706Z"
+  },
+  "name": "GURU PROFESIONAL 3 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "3",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f7969849e61651afc04ac7"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:38:48.405Z"
+  },
+  "name": "GURU PROFESIONAL 4 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "4",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f7974249e61651afc04bb0"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:41:38.271Z"
+  },
+  "name": "GURU PROFESIONAL ILIMITADO",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f797f149e61651afc04c19"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:44:33.326Z"
+  },
+  "name": "GURU PROFESIONAL + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "socialMedia",
+    "appClients",
+    "appBusiness",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63f7984d49e61651afc04cb3"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:46:05.301Z"
+  },
+  "name": "GURU PROFESIONAL 2 AGENDAS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "socialMedia",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0,
+  "type": "qa"
+},
+{
+  "_id": {
+    "$oid": "63f7987649e61651afc04ccf"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:46:46.555Z"
+  },
+  "name": "  TEST GURU PROFESIONAL 3 AGENDAS + REDES",
+  "user": "Jhoan",
+  "features": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "3",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "63f7988349e61651afc04cd9"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:46:59.925Z"
+  },
+  "name": "GURU PROFESIONAL 4 AGENDAS",
+  "user": "Jhoan",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": "4",
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63f7989249e61651afc04ce7"
+  },
+  "datemod": {
+    "$date": "2023-02-23T16:47:14.811Z"
+  },
+  "name": "GURU PROFESIONAL ILIMITADO",
+  "user": "Jhoan",
+  "features": [
+    "clinicalDocuments",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "premiumsbillguard",
+    "employes",
+    "socialMedia",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "credentials",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "description": "Imprescindible para la gestión básica y seguimiento de productos y servicios de su negocio."
+  },
+  "__v": 0,
+  "type": "guru",
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "63fe5f0f299357d33310d659"
+  },
+  "datemod": {
+    "$date": "2023-02-28T20:07:43.612Z"
+  },
+  "name": "OPS PLAN ONE",
+  "user": "634f1ebc488dde19e9f54dd7",
+  "features": [
+    "socialMedia",
+    "employes"
+  ],
+  "params": {
+    "dudaPlanId": "317583d8-be68-4d14-a1d2-8be06be5b17a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "642adf58fb41edc6263a9a37"
+  },
+  "datemod": {
+    "$date": "2023-04-03T14:14:48.734Z"
+  },
+  "name": "SPECIAL MIGRATION SITES - REDES",
+  "user": "634f1ebc488dde19e9f54dd7",
+  "type": "adn",
+  "features": [
+    "reports",
+    "socialMedia",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "analytics": true,
+    "upgradeGrade": 0,
+    "dudaGrade": 1,
+    "price": 3.68,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "fdccb73d-91e6-44e8-bf97-529204492372",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 2000
+    }
+  },
+  "__v": 0,
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "644a9781d47ca21ad662c2bd"
+  },
+  "datemod": {
+    "$date": "2023-04-27T15:40:49.650Z"
+  },
+  "name": "TIMKOT PLAN QA - PROFESIONAL PLUS 4 AGENDAS + REDES",
+  "user": "Roser",
+  "type": "qa",
+  "features": [
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64595685a21cb0379dc0a389"
+  },
+  "datemod": {
+    "$date": "2023-05-08T20:07:33.244Z"
+  },
+  "name": "GURU HAROLD",
+  "user": "Harold",
+  "type": "qa",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "credentials"
+  ],
+  "params": {
+    "addons": {
+      "email": 2000
+    },
+    "another": {
+      "email": 3000
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "647f4133713ed76e8c2222fc"
+  },
+  "datemod": {
+    "$date": "2023-06-06T14:22:43.333Z"
+  },
+  "name": "GYMPASS TEST",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "gympass",
+  "features": [
+    "media",
+    "reports",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "socialMedia",
+    "premiumsbillguard",
+    "employes",
+    "bonus",
+    "appBusiness",
+    "appClients",
+    "webpremium",
+    "customWeb"
+  ],
+  "params": {
+    "schedules": -1,
+    "dudaPlanId": "317583d8-be68-4d14-a1d2-8be06be5b17a"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a5f73b0da938c693a47851"
+  },
+  "datemod": {
+    "$date": "2023-07-05T23:05:31.392Z"
+  },
+  "name": "GURU FREE + REDES",
+  "user": "Alejandro",
+  "type": "guru",
+  "features": [
+    "socialMedia",
+    "dashboard",
+    "webtimkot",
+    "premiumsbillguard",
+    "guruRoutes"
+  ],
+  "params": {
+    "price": 0,
+    "grade": 0,
+    "warningsBlocked": true
+  },
+  "__v": 0,
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "64dbe7e32f844f47a779657e"
+  },
+  "datemod": {
+    "$date": "2023-08-15T21:02:27.644Z"
+  },
+  "name": "FITPAL PROFESIONAL PLUS ILIMITADO",
+  "user": "",
+  "type": "addmind",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness",
+    "uploadFiles"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 3.68,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "dc78c19d-c9c9-4568-958a-3d21da4c967f",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true
+  },
+  "__v": 0,
+  "_idBHAccount": "65038647fd45746128b86f04"
+},
+{
+  "_id": {
+    "$oid": "64e4cb412f844f47a79bd667"
+  },
+  "datemod": {
+    "$date": "2023-08-22T14:50:41.880Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "cronotech",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "64dfc7b72f844f47a78d4480"
+},
+{
+  "_id": {
+    "$oid": "64e4ce6a2f844f47a79bdc17"
+  },
+  "datemod": {
+    "$date": "2023-08-22T15:04:10.091Z"
+  },
+  "name": "STARTER ILIMITADO",
+  "user": "JuanCJC",
+  "type": "cronotech",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "disabled": true,
+  "_idBHAccount": "64dfc7b72f844f47a78d4480"
+},
+{
+  "_id": {
+    "$oid": "651448e912c7a6f3efeb275e"
+  },
+  "datemod": {
+    "$date": "2023-09-27T15:23:21.951Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "enpodi",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "64fa6058c15fbaf70059e335"
+},
+{
+  "_id": {
+    "$oid": "651dbce987e791eaaa716109"
+  },
+  "datemod": {
+    "$date": "2023-10-04T19:28:41.549Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "demo",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651db19487e791eaaa715732"
+},
+{
+  "_id": {
+    "$oid": "6520641b431c9670a2130bcd"
+  },
+  "datemod": {
+    "$date": "2023-10-06T19:46:35.434Z"
+  },
+  "name": "STARTER ILIMITADO",
+  "user": "JuanCJC",
+  "type": "demo",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651db19487e791eaaa715732"
+},
+{
+  "_id": {
+    "$oid": "65206468431c9670a2130c20"
+  },
+  "datemod": {
+    "$date": "2023-10-06T19:47:52.463Z"
+  },
+  "name": "PROFESIONAL ILIMITADO",
+  "user": "JuanCJC",
+  "type": "demo",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "employes",
+    "socialMedia",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651db19487e791eaaa715732"
+},
+{
+  "_id": {
+    "$oid": "6526fa92eb8ea577ab730cfd"
+  },
+  "datemod": {
+    "$date": "2023-10-11T19:42:10.483Z"
+  },
+  "name": "SPECIAL MIGRATION SITES - 8K SENDINGS",
+  "user": "Alejandro",
+  "type": "adn",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 6,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "b0df7bd1-1df0-47c2-b298-741a9f42d9f1",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 8000
+    }
+  },
+  "__v": 0,
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "6526fb73eb8ea577ab730d72"
+  },
+  "datemod": {
+    "$date": "2023-10-11T19:45:55.755Z"
+  },
+  "name": "SPECIAL MIGRATION SITES - 15K SENDINGS",
+  "user": "Alejandro",
+  "type": "adn",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 14,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "3d6a55e7-a2ae-4eb2-8fe3-dce190e1039e",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 15000
+    }
+  },
+  "__v": 0,
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "6526fbc8eb8ea577ab730e05"
+  },
+  "datemod": {
+    "$date": "2023-10-11T19:47:20.427Z"
+  },
+  "name": "SPECIAL MIGRATION SITES - 30K SENDINGS",
+  "user": "Alejandro",
+  "type": "adn",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 28,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "2fac3da2-ba4a-44b9-9d8e-b58ea3ff7855",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 30000
+    }
+  },
+  "__v": 0,
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "6526fc02eb8ea577ab730e2b"
+  },
+  "datemod": {
+    "$date": "2023-10-11T19:48:18.584Z"
+  },
+  "name": "SPECIAL MIGRATION SITES - 50K SENDINGS",
+  "user": "Alejandro",
+  "type": "adn",
+  "features": [
+    "reports",
+    "bonus",
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "subscriptions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "importClientsRoutes",
+    "budgets",
+    "employes",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "upgradeGrade": 0,
+    "dudaGrade": 0,
+    "price": 48,
+    "schedules": 10000,
+    "app_uuid": "4cbb9bfe-982a-46bc-a6ca-91c27dfffad5",
+    "dudaPlanId": "e8052c64-e592-4d0a-933d-7a602aeb60c2",
+    "description": "Plan perfecto para aquellos que quieren mejorar su estrategia de programa de fidelización (además de todas las características que tiene Starter).",
+    "features": [
+      "Marketing por correo electrónico + Plantillas de correo electrónico",
+      "Tareas automáticas",
+      "SMS/Whatsapp business (con coste adicional).",
+      "Programas de lealtad",
+      "Tarjetas de regalo",
+      "Historial del cliente/paciente",
+      "Gestión de firmas",
+      "Pagos Recurrentes (Paquetes y Gestión de Membresías)"
+    ],
+    "is_hidden": true,
+    "addons": {
+      "email": 50000
+    }
+  },
+  "__v": 0,
+  "_idBHAccount": "63975fad014deea97564a79c"
+},
+{
+  "_id": {
+    "$oid": "6528028054bf0c341d15e614"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "Alejo",
+  "type": "hwsolutionsrd",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "6511e66a5604899f494b2554"
+},
+{
+  "_id": {
+    "$oid": "65315a962adbbb42cead3be7"
+  },
+  "datemod": {
+    "$date": "2023-10-19T16:34:30.341Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "fractal",
+  "features": [
+    "beweOne",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6536a5f992a4ed37f1d17464"
+  },
+  "datemod": {
+    "$date": "2023-10-23T16:57:29.324Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "m5",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "6504ba5ffd45746128ba3712"
+},
+{
+  "_id": {
+    "$oid": "653a86228c7da87a1c17f5a9"
+  },
+  "datemod": {
+    "$date": "2023-10-26T15:30:42.351Z"
+  },
+  "name": "GURU ONLY SOCIAL MEDIA",
+  "user": "JuanCJC",
+  "type": "guru",
+  "features": [
+    "dashboard",
+    "guruRoutes",
+    "premiumsbillguard"
+  ],
+  "params": {
+    "price": 0,
+    "warningsBlocked": false
+  },
+  "__v": 0,
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "6553ca55d6a633a795911418"
+  },
+  "datemod": {
+    "$date": "2023-11-14T19:28:21.130Z"
+  },
+  "name": "PROFESIONAL ILIMITADO",
+  "user": "JuanCJC",
+  "type": "loteuno",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments",
+    "emailMarketing",
+    "automaticTask",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "653ada728c7da87a1c183e21"
+},
+{
+  "_id": {
+    "$oid": "655d010641174842660d7c2f"
+  },
+  "datemod": {
+    "$date": "2023-11-21T19:12:06.900Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "JuanCJC",
+  "type": "intgra",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651b57338653837aee2a5de8"
+},
+{
+  "_id": {
+    "$oid": "655f7b4c4117484266102668"
+  },
+  "datemod": {
+    "$date": "2023-11-23T16:18:20.552Z"
+  },
+  "name": "NEW PLAN CORE",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "bewe_test",
+  "features": [
+    "dashboard",
+    "automaticTask",
+    "emailMarketing",
+    "configClients",
+    "clients",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "reports"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": 0
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6565f549404ebbd3e7668fdb"
+  },
+  "datemod": {
+    "$date": "2023-11-28T14:12:25.545Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "sovmarketing",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClientsRoutes",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "guruRoutes",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": 18
+  },
+  "__v": 0,
+  "_idBHAccount": "65416fabbd557aee6082814d"
+},
+{
+  "_id": {
+    "$oid": "6567b94af53ac7205386bb48"
+  },
+  "datemod": {
+    "$date": "2023-11-29T22:20:58.484Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "Cesar Insuasty",
+  "type": "lccarols",
+  "features": [
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": 18
+  },
+  "__v": 0,
+  "_idBHAccount": "6517546c8653837aee238b26"
+},
+{
+  "_id": {
+    "$oid": "65771fe26a8c142906722da4"
+  },
+  "datemod": {
+    "$date": "2023-12-11T14:42:42.228Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "foenicia",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": 0,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "655f93774117484266104300"
+},
+{
+  "_id": {
+    "$oid": "657773fcc78def99920a1aab"
+  },
+  "datemod": {
+    "$date": "2023-12-11T20:41:32.721Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "mactivacion",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": 0
+  },
+  "__v": 0,
+  "_idBHAccount": "655e383029fc7c8c830ce939"
+},
+{
+  "_id": {
+    "$oid": "657787dcc78def99920a3050"
+  },
+  "datemod": {
+    "$date": "2023-12-11T22:06:20.398Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "nuvoplus",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": null
+  },
+  "__v": 0,
+  "_idBHAccount": "655d2d9229fc7c8c83097c59"
+},
+{
+  "_id": {
+    "$oid": "6577917fc78def99920a399f"
+  },
+  "datemod": {
+    "$date": "2023-12-11T22:47:27.923Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "cluecrm",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "schedules": 10000,
+    "dudaPlanId": null,
+    "price": null
+  },
+  "__v": 0,
+  "_idBHAccount": "6560784a3c024994922e2554"
+},
+{
+  "_id": {
+    "$oid": "657b853af770eb99e43309b3"
+  },
+  "datemod": {
+    "$date": "2023-12-14T22:44:10.975Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "brandhealth",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "655e805729fc7c8c830d27a2"
+},
+{
+  "_id": {
+    "$oid": "65845c47a0f9d0499e28ee5a"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "planeaxiondigital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "6564e4ea286b69f753de0e52"
+},
+{
+  "_id": {
+    "$oid": "658ca3e69c318307ae8a3e10"
+  },
+  "name": "CRM ONLY",
+  "user": "JuanCJ",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "appBusiness"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "beedigital"
+},
+{
+  "_id": {
+    "$oid": "659d827006f88faf1128771e"
+  },
+  "datemod": {
+    "$date": "2024-01-09T17:29:20.268Z"
+  },
+  "name": "ONLY INTEGRATIONS",
+  "user": "JuanCJC",
+  "type": "demo",
+  "features": [
+    "budgets",
+    "clients"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651db19487e791eaaa715732"
+},
+{
+  "_id": {
+    "$oid": "659ebf7983045a394cd575ae"
+  },
+  "datemod": {
+    "$date": "2024-01-10T16:02:01.202Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "notam",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "658b18b6f770eb99e44294a7"
+},
+{
+  "_id": {
+    "$oid": "65a9908f6e2ccee8e9e818a6"
+  },
+  "datemod": {
+    "$date": "2024-01-18T20:56:47.761Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "trueque",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "651c4e9a8653837aee2cc4ab"
+},
+{
+  "_id": {
+    "$oid": "65aedc2c6e2ccee8e9ecdcff"
+  },
+  "datemod": {
+    "$date": "2024-01-22T21:20:44.593Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "salescaptor",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65a5c7648b7b05591a8610ed"
+},
+{
+  "_id": {
+    "$oid": "65afdb0bc401a82ff729ea47"
+  },
+  "name": "CUSTOM PLAN",
+  "user": "60253d16b5a73026317124b6",
+  "type": "notam",
+  "features": [
+    "employes"
+  ],
+  "params": {
+    "price": null,
+    "schedules": 10000
+  },
+  "_idBHAccount": "658b18b6f770eb99e44294a7"
+},
+{
+  "_id": {
+    "$oid": "65b18b384566c27fb5c36965"
+  },
+  "datemod": {
+    "$date": "2024-01-24T22:12:08.552Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "digitalpro",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65aff96ef36b98ed540701c0"
+},
+{
+  "_id": {
+    "$oid": "65b3c25dea4feab1090756db"
+  },
+  "datemod": {
+    "$date": "2024-01-26T14:31:57.507Z"
+  },
+  "name": "BEE CUSTOM PLAN 1",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "beedigital",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": 0,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b3c267ea4feab1090756e9"
+  },
+  "datemod": {
+    "$date": "2024-01-26T14:32:07.268Z"
+  },
+  "name": "BEE CUSTOM PLAN 2",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "beedigital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": 0,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b93197ea4feab1090ce208"
+  },
+  "datemod": {
+    "$date": "2024-01-30T17:27:51.045Z"
+  },
+  "name": "STARTER ILIMITADO",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "cluecrm",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments",
+    "appClients",
+    "appBusiness"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "6560784a3c024994922e2554"
+},
+{
+  "_id": {
+    "$oid": "65bbb5231f85560ec7dc0391"
+  },
+  "datemod": {
+    "$date": "2024-02-01T15:13:39.989Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "edigital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65a6d3f26e2ccee8e9e64b93"
+},
+{
+  "_id": {
+    "$oid": "65bc14051f85560ec7dc3e29"
+  },
+  "datemod": {
+    "$date": "2024-02-01T21:58:29.465Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "momentocreativo",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65af0246f36b98ed54058e10"
+},
+{
+  "_id": {
+    "$oid": "65c105129b38dd3331392c55"
+  },
+  "datemod": {
+    "$date": "2024-02-05T15:56:02.333Z"
+  },
+  "name": "PROFESIONAL ILIMITADO",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "cluecrm",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "clinicalDocuments",
+    "appClients",
+    "appBusiness",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "6560784a3c024994922e2554"
+},
+{
+  "_id": {
+    "$oid": "65c6871651ddc13241cf2549"
+  },
+  "datemod": {
+    "$date": "2024-02-09T20:12:06.560Z"
+  },
+  "name": "FITPAL STARTER ILIMITADO",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "addmind",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "importClientsRoutes",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "guruRoutes",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65038647fd45746128b86f04"
+},
+{
+  "_id": {
+    "$oid": "65c6874c51ddc13241cf2562"
+  },
+  "datemod": {
+    "$date": "2024-02-09T20:13:00.034Z"
+  },
+  "name": "FITPAL PROFESIONAL ILIMITADO",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "addmind",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "commisions",
+    "credentials",
+    "consents",
+    "configClients",
+    "whatsapp",
+    "cashSpecial",
+    "resources",
+    "sms",
+    "importClientsRoutes",
+    "premiumsbillguard",
+    "employes",
+    "reports",
+    "productOrder",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65038647fd45746128b86f04"
+},
+{
+  "_id": {
+    "$oid": "65ca459b7a75943b5ea9c414"
+  },
+  "name": "CRM",
+  "user": "JuanCJ",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "appBusiness"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "demo",
+  "_idBHAccount": "651db19487e791eaaa715732"
+},
+{
+  "_id": {
+    "$oid": "65d34fa74ca63f31cd494964"
+  },
+  "name": "CRM",
+  "user": "JuanCJ",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "beedigitalcrm",
+  "_idBHAccount": "65d34c50871ff46d5bdf7986"
+},
+{
+  "_id": {
+    "$oid": "65d359b74ca63f31cd49496e"
+  },
+  "name": "CRM + MARKETING + AGENDA",
+  "user": "JuanCJ",
+  "features": [
+    "dashboard",
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "automaticTask",
+    "emailMarketing",
+    "resources",
+    "book",
+    "credentials",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "beedigitalcrm",
+  "_idBHAccount": "65d34c50871ff46d5bdf7986"
+},
+{
+  "_id": {
+    "$oid": "65d3db882602504e8dff5d6a"
+  },
+  "datemod": {
+    "$date": "2024-02-19T22:51:52.296Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "sonrisasparatodos",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65ce8a8ae46da4c90931dd6c"
+},
+{
+  "_id": {
+    "$oid": "65d4be7f2602504e8dffff61"
+  },
+  "datemod": {
+    "$date": "2024-02-20T15:00:15.686Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "mirandadigitalessence",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65ce70c9e46da4c90931d1cd"
+},
+{
+  "_id": {
+    "$oid": "65d4cc452602504e8d0004d8"
+  },
+  "datemod": {
+    "$date": "2024-02-20T15:59:01.727Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "xalachi",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65cfcb7ae46da4c90932d35d"
+},
+{
+  "_id": {
+    "$oid": "65d60c2d2eea30a4a438cfee"
+  },
+  "datemod": {
+    "$date": "2024-02-21T14:43:57.501Z"
+  },
+  "name": "CRM + MARKETING + AGENDA + PAGOS",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "beedigitalcrm",
+  "features": [
+    "dashboard",
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "employes",
+    "reports",
+    "clinicalDocuments",
+    "academy"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d34c50871ff46d5bdf7986"
+},
+{
+  "_id": {
+    "$oid": "65d656235008060e9eb28b0c"
+  },
+  "datemod": {
+    "$date": "2024-02-21T19:59:31.795Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "boomgrowthpartner",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65bad5289b38dd333132bc8f"
+},
+{
+  "_id": {
+    "$oid": "65d65f895008060e9eb28faa"
+  },
+  "datemod": {
+    "$date": "2024-02-21T20:39:37.078Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "bydzyne",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65cfee7ee46da4c90932e16b"
+},
+{
+  "_id": {
+    "$oid": "65d68b795008060e9eb2a3b5"
+  },
+  "datemod": {
+    "$date": "2024-02-21T23:47:05.257Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "blupagenciacreativa",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d7c02a5008060e9eb40ebf"
+  },
+  "datemod": {
+    "$date": "2024-02-22T21:44:10.420Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "elcreativoweb",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d514aa2602504e8d002da3"
+},
+{
+  "_id": {
+    "$oid": "65d8af8f9578c9a9a78d5953"
+  },
+  "datemod": {
+    "$date": "2024-02-23T14:45:35.748Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "scriptdigital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d501e9a2a9e4b1f83e82c1"
+},
+{
+  "_id": {
+    "$oid": "65d925719578c9a9a78d9ad5"
+  },
+  "datemod": {
+    "$date": "2024-02-23T23:08:33.311Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "gitecmexico",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65ce8fa2e46da4c90931e02b"
+},
+{
+  "_id": {
+    "$oid": "65dcdbbc9578c9a9a792660d"
+  },
+  "datemod": {
+    "$date": "2024-02-26T18:43:08.301Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "bullseyemediacompany",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65cab0e470a6748fd36c9248"
+},
+{
+  "_id": {
+    "$oid": "65de03ac9578c9a9a794044d"
+  },
+  "datemod": {
+    "$date": "2024-02-27T15:45:48.070Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "grupo30",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "automaticTask",
+    "emailMarketing",
+    "appBusiness"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d6379a5008060e9eb27b5a"
+},
+{
+  "_id": {
+    "$oid": "65de6386ad1c2214b3a0de43"
+  },
+  "datemod": {
+    "$date": "2024-02-27T22:34:46.007Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "concienciamd",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65ce6c87871ff46d5bda804f"
+},
+{
+  "_id": {
+    "$oid": "65e0b9d6fa664b9a4a0cf61e"
+  },
+  "datemod": {
+    "$date": "2024-02-29T17:07:34.986Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "mrbusinessman",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65ce94b7871ff46d5bda9729"
+},
+{
+  "_id": {
+    "$oid": "65e78d12e59219b1815e5efb"
+  },
+  "datemod": {
+    "$date": "2024-03-05T21:22:26.890Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "salonmarketingcr",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d761f85008060e9eb3554a"
+},
+{
+  "_id": {
+    "$oid": "65eb1be22887daca8e8460b4"
+  },
+  "datemod": {
+    "$date": "2024-03-08T14:08:34.642Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "ozoriasmma",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e24d86b3b1c8b04136cb6a"
+},
+{
+  "_id": {
+    "$oid": "65eb7218540a939f10178c69"
+  },
+  "datemod": {
+    "$date": "2024-03-08T20:16:24.818Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "mncapp",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e7324db3b1c8b04141fee9"
+},
+{
+  "_id": {
+    "$oid": "65eb9546540a939f1017b694"
+  },
+  "datemod": {
+    "$date": "2024-03-08T22:46:30.132Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d16b5a73026317124b6",
+  "type": "estragital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e0fb0afa664b9a4a0d2ca2"
+},
+{
+  "_id": {
+    "$oid": "65f0b1a40f80b256920dd5f7"
+  },
+  "datemod": {
+    "$date": "2024-03-12T19:48:52.575Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "blowmedia360",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f0c027d8927c7d509f1ae1"
+},
+{
+  "_id": {
+    "$oid": "65f0da580f80b256920dea8e"
+  },
+  "datemod": {
+    "$date": "2024-03-12T22:42:32.156Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "cxsolutions",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e26dd4fa664b9a4a0f3d0d"
+},
+{
+  "_id": {
+    "$oid": "65f1de700f80b256921040c1"
+  },
+  "datemod": {
+    "$date": "2024-03-13T17:12:16.185Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "conceptobogaspa",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e77ad7fbf2bb07f0046416"
+},
+{
+  "_id": {
+    "$oid": "65f206440f80b2569210530e"
+  },
+  "datemod": {
+    "$date": "2024-03-13T20:02:12.438Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "sysmacsolucionesti",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d7afec5008060e9eb3fff3"
+},
+{
+  "_id": {
+    "$oid": "65f254dd3f2d58501c80d495"
+  },
+  "name": "Plan Básico",
+  "user": "JuanCJ",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "emailMarketing",
+    "automaticTask",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "scriptdigital",
+  "_idBHAccount": "65d501e9a2a9e4b1f83e82c1"
+},
+{
+  "_id": {
+    "$oid": "65f3175c3f2d58501c80d499"
+  },
+  "name": "GURU CRM + MARKETING",
+  "user": "JuanCJC",
+  "type": "guru",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "premiumsbillguard",
+    "automaticTask",
+    "emailMarketing",
+    "guruRoutes"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 1,
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "65f326d43f2d58501c80d49e"
+  },
+  "name": "GURU CRM",
+  "user": "JuanCJC",
+  "type": "guru",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "premiumsbillguard",
+    "guruRoutes"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 1,
+  "_idBHAccount": "6331d0e09660361198fdd08d"
+},
+{
+  "_id": {
+    "$oid": "65f37c630f80b25692117133"
+  },
+  "datemod": {
+    "$date": "2024-03-14T22:38:27.318Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "paginasamarelas",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65a81272a4cfaab8280f88eb"
+},
+{
+  "_id": {
+    "$oid": "65f4ab980f80b25692124b13"
+  },
+  "datemod": {
+    "$date": "2024-03-15T20:12:08.403Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "disrupto",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e9f12d74f223ad9984a6ca"
+},
+{
+  "_id": {
+    "$oid": "65f87265faa90f884fc5b171"
+  },
+  "datemod": {
+    "$date": "2024-03-18T16:57:09.324Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "supremacydealeratelier",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f09560d8927c7d509f0490"
+},
+{
+  "_id": {
+    "$oid": "65f99a02c109ea1008631435"
+  },
+  "name": "CRM",
+  "user": "JuanCJ",
+  "features": [
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "paginasamarelas",
+  "_idBHAccount": "65a81272a4cfaab8280f88eb"
+},
+{
+  "_id": {
+    "$oid": "65f99a1bc109ea1008631436"
+  },
+  "name": "CRM + MARKETING + AGENDA",
+  "user": "JuanCJ",
+  "features": [
+    "dashboard",
+    "clients",
+    "importClients",
+    "configClients",
+    "employes",
+    "clinicalDocuments",
+    "automaticTask",
+    "emailMarketing",
+    "resources",
+    "book",
+    "credentials",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "type": "paginasamarelas",
+  "_idBHAccount": "65a81272a4cfaab8280f88eb"
+},
+{
+  "_id": {
+    "$oid": "65f99a3dc109ea1008631437"
+  },
+  "datemod": {
+    "$date": "2024-02-21T14:43:57.501Z"
+  },
+  "name": "CRM + MARKETING + AGENDA + PAGOS",
+  "user": "JuanCJC",
+  "type": "paginasamarelas",
+  "features": [
+    "dashboard",
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "employes",
+    "reports",
+    "clinicalDocuments",
+    "academy"
+  ],
+  "params": {
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65a81272a4cfaab8280f88eb"
+},
+{
+  "_id": {
+    "$oid": "65fcaffefaa90f884fcb79c4"
+  },
+  "datemod": {
+    "$date": "2024-03-21T22:09:02.842Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "empowerbusinesspr",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f48e3ad8927c7d50a51b47"
+},
+{
+  "_id": {
+    "$oid": "65fdb42ffaa90f884fceb86e"
+  },
+  "datemod": {
+    "$date": "2024-03-22T16:39:11.936Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "broflow",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f46eda0f80b256921231f4"
+},
+{
+  "_id": {
+    "$oid": "65fdf2dffaa90f884fcedeec"
+  },
+  "datemod": {
+    "$date": "2024-03-22T21:06:39.323Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "ads4results",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fc3a1efaa90f884fcb409d"
+},
+{
+  "_id": {
+    "$oid": "66033bbe75985a7afab3bf0a"
+  },
+  "datemod": {
+    "$date": "2024-03-26T21:18:54.347Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "adesdigital",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65de3ceab3b1c8b04130e292"
+},
+{
+  "_id": {
+    "$oid": "66034e8875985a7afab3c7e8"
+  },
+  "datemod": {
+    "$date": "2024-03-26T22:39:04.803Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "argy",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e21866b3b1c8b04136b256"
+},
+{
+  "_id": {
+    "$oid": "66034f3f75985a7afab3c801"
+  },
+  "datemod": {
+    "$date": "2024-03-26T22:42:07.073Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "loyify",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fdc23075985a7afab0813f"
+},
+{
+  "_id": {
+    "$oid": "66035c7775985a7afab3ce7e"
+  },
+  "datemod": {
+    "$date": "2024-03-26T23:38:31.034Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "incovi",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fd8abbfaa90f884fcc125e"
+},
+{
+  "_id": {
+    "$oid": "660bdfa135a4407e6a90c716"
+  },
+  "datemod": {
+    "$date": "2024-04-02T10:36:17.300Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "onux",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fc47f8faa90f884fcb47f5"
+},
+{
+  "_id": {
+    "$oid": "660c6287191b004a9ff4b40f"
+  },
+  "datemod": {
+    "$date": "2024-04-02T19:54:47.616Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "jhedii",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f4ed910f80b2569212668e"
+},
+{
+  "_id": {
+    "$oid": "660ed91b508579d0d5f996db"
+  },
+  "datemod": {
+    "$date": "2024-04-04T16:45:15.136Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "optify",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65f9af273a4704e003254d0f"
+},
+{
+  "_id": {
+    "$oid": "660edbcb508579d0d5f99820"
+  },
+  "datemod": {
+    "$date": "2024-04-04T16:56:43.172Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "caribbeandigitals",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fb4a8775985a7afaad4daf"
+},
+{
+  "_id": {
+    "$oid": "6618492598910596107da363"
+  },
+  "datemod": {
+    "$date": "2024-04-11T20:33:41.801Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "pocketmanagementbytimkot",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "66184f9b98910596107da774"
+},
+{
+  "_id": {
+    "$oid": "661eabd85800658e3f92c3c2"
+  },
+  "datemod": {
+    "$date": "2024-04-16T16:48:24.461Z"
+  },
+  "name": "PROFESIONAL ILIMITADO",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "ads4results",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "cashier",
+    "cash",
+    "productOrder",
+    "commisions",
+    "consents",
+    "configClients",
+    "cashSpecial",
+    "resources",
+    "employes",
+    "socialMedia",
+    "reports",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": 0,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fc3a1efaa90f884fcb409d"
+},
+{
+  "_id": {
+    "$oid": "661eabe85800658e3f92c3d3"
+  },
+  "datemod": {
+    "$date": "2024-04-16T16:48:40.172Z"
+  },
+  "name": "STARTER",
+  "user": "62b236596885d8d0d0912f3e",
+  "type": "ads4results",
+  "features": [
+    "dashboard",
+    "book",
+    "clients",
+    "importClients",
+    "resources",
+    "employes",
+    "premiumsbillguard",
+    "appBusiness",
+    "appClients",
+    "clinicalDocuments"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": 0,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65fc3a1efaa90f884fcb409d"
+},
+{
+  "_id": {
+    "$oid": "661ec8962786338bf195c80f"
+  },
+  "datemod": {
+    "$date": "2024-04-16T18:51:02.242Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "unitc",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "66140e63508579d0d505775e"
+},
+{
+  "_id": {
+    "$oid": "661ed3972786338bf195cd0b"
+  },
+  "datemod": {
+    "$date": "2024-04-16T19:37:59.829Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "haibuland",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65d7710d5008060e9eb35df7"
+},
+{
+  "_id": {
+    "$oid": "661edf4b2786338bf195d0eb"
+  },
+  "datemod": {
+    "$date": "2024-04-16T20:27:55.308Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "brand360",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "66035f8175985a7afab3ceff"
+},
+{
+  "_id": {
+    "$oid": "661ee6f7e772070d4ed80302"
+  },
+  "datemod": {
+    "$date": "2024-04-16T21:00:39.846Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "emergentesinc",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "661d31d51db20061972c7962"
+},
+{
+  "_id": {
+    "$oid": "66203386ca16ca6185477b92"
+  },
+  "datemod": {
+    "$date": "2024-04-17T20:39:34.767Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "creativa33",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "660ec57fb6080c67b1aceaac"
+},
+{
+  "_id": {
+    "$oid": "6620583e2db86260f810ad04"
+  },
+  "datemod": {
+    "$date": "2024-04-17T23:16:14.043Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "ceotegnology",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "65e77307fbf2bb07f004607b"
+},
+{
+  "_id": {
+    "$oid": "662186ec096447a62e0116fb"
+  },
+  "datemod": {
+    "$date": "2024-04-18T20:47:40.129Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "datagrama",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "661da00ec11e5b67ee384334"
+},
+{
+  "_id": {
+    "$oid": "66229d8d096447a62e01c8cb"
+  },
+  "datemod": {
+    "$date": "2024-04-19T16:36:29.098Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "60253d23b5a73026317124f6",
+  "type": "highvalue",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "661fcc30e772070d4ed8a77b"
+},
+{
+  "_id": {
+    "$oid": "6626d737096447a62e06ce4c"
+  },
+  "datemod": {
+    "$date": "2024-04-22T21:31:35.097Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "6298c1367d2212089f048465",
+  "type": "esencial",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0,
+  "_idBHAccount": "66184fbe8e5b6f19f1e65944"
+},
+{
+  "_id": {
+    "$oid": "6627d419725118329e925775"
+  },
+  "datemod": {
+    "$date": "2024-04-23T15:30:33.649Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "6298c1367d2212089f048465",
+  "type": "mdbeducation",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6627fb45725118329e92686d"
+  },
+  "datemod": {
+    "$date": "2024-04-23T18:17:41.176Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "6298c1367d2212089f048465",
+  "type": "mindboost",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66297082543b6826acfc9d9d"
+  },
+  "datemod": {
+    "$date": "2024-04-24T20:50:10.567Z"
+  },
+  "name": "PROFESIONAL PLUS ILIMITADO",
+  "user": "6298c1367d2212089f048465",
+  "type": "ozarawebsite",
+  "features": [
+    "credentials",
+    "budgets",
+    "dashboard",
+    "cash",
+    "commisions",
+    "productOrder",
+    "automaticTask",
+    "emailMarketing",
+    "recurringCharges",
+    "cashier",
+    "subscriptions",
+    "consents",
+    "resources",
+    "configClients",
+    "importClients",
+    "cashSpecial",
+    "clients",
+    "book",
+    "bonus",
+    "appClients",
+    "appBusiness",
+    "employes",
+    "appBusiness",
+    "appClients",
+    "reports",
+    "clinicalDocuments",
+    "uploadFiles"
+  ],
+  "params": {
+    "dudaPlanId": null,
+    "price": null,
+    "schedules": 10000
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66297c2839406507202a564a"
+  },
+  "name": "CUSTOM PLAN",
+  "user": "60253d16b5a73026317124b6",
+  "type": "jhedii",
+  "features": [
+    "employes"
+  ],
+  "params": {
+    "price": null,
+    "schedules": 10000
+  },
+  "_idBHAccount": "65f4ed910f80b2569212668e"
+}]
