@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
+const fetch = require("node-fetch")
 
 var corsOptions = {
   origin: "*"
@@ -50,10 +51,16 @@ app.get("/auth/signin", (req, res) => {
     // pepe.save()
 });
 
+app.get("/outside", async (req,res)=> {
+  const data = await fetch("http://localhost:9009").catch(error => console.log(error))
+  console.log(data)
+  res.json({out: "yes"})
+})
+
 // require("./app/routes/turorial.routes")(app);
 
 // set port, listen for requests
-const PORT = 9002;
+const PORT = 9003;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

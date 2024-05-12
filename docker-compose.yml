@@ -10,34 +10,34 @@ services:
       - 27017:27017
     volumes:
       - db:/data/db
-  # nodejs: 
-  #   build: ./api
-  #   restart: unless-stopped
-  #   volumes:
-  #     - ./api/:/app
-  #   ports: 
-  #     - 9002:9002
+  simplenodejs: 
+    build: ./api
+    restart: unless-stopped
+    volumes:
+      - ./api/:/app
+    ports: 
+      - 9003:9003
 
   nodejs:
-    build: ./backend
+    build: ../backend
     restart: unless-stopped
     ports:
       - 9002:9002
     volumes:
-      - ./backend/:/app
+      - ../backend/:/app
       - /app/node_modules
-  # nginx:
-  #   # image: bewe-nginx
-  #   depends_on:
-  #     - nodejs
-  #   build: ./nginx/
-  #   restart: unless-stopped
-  #   # env_file: ./.env
-  #   # environment:
-  #   #   - MONGO_INITDB_ROOT_USERNAME=$MONGODB_USER
-  #   #   - MONGO_INITDB_ROOT_PASSWORD=$MONGODB_PASSWORD
-  #   ports:
-  #     - 80:80
+  nginx:
+    # image: bewe-nginx
+    depends_on:
+      - nodejs
+    build: ./nginx/
+    restart: unless-stopped
+    # env_file: ./.env
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME=$MONGODB_USER
+    #   - MONGO_INITDB_ROOT_PASSWORD=$MONGODB_PASSWORD
+    ports:
+      - 80:80
 
 volumes:
     db:
