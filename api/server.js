@@ -38,7 +38,7 @@ const User = mongoose.model("User", schema)
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "ya ya to bezkoder application." });
+  res.json({ message: "from another docker container" });
 //   mongoose.Collection("test").
     // const pepe = new User({name: `pepe ${new Date().getTime()}`})
     // pepe.save()
@@ -60,7 +60,7 @@ app.get("/outside", async (req,res)=> {
 // require("./app/routes/turorial.routes")(app);
 
 // set port, listen for requests
-const PORT = 9003;
+const PORT = 9004;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });

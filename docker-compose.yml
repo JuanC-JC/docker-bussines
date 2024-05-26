@@ -1,7 +1,17 @@
 
-name: dockertest
+name: bewecore
 
 services:
+
+  redis:
+    image: "redis"
+    ports:
+      - 6379:6379
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+    networks:
+      - bewe-network
 
   mongodb:
     build: ./mongodb
@@ -9,38 +19,56 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - db:/data/db
-  simplenodejs: 
-    build: ./api
-    restart: unless-stopped
-    volumes:
-      - ./api/:/app
-    ports: 
-      - 9003:9003
+      - /data/bewe-db:/data/db
+    networks:
+      - bewe-network
 
   nodejs:
     build: ../backend
     restart: unless-stopped
+    depends_on:
+      - mongodb
     ports:
       - 9002:9002
     volumes:
       - ../backend/:/app
       - /app/node_modules
+    command: "npm run dev"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
+
   nginx:
-    # image: bewe-nginx
-    depends_on:
-      - nodejs
     build: ./nginx/
     restart: unless-stopped
+    depends_on:
+      - nodejs
     # env_file: ./.env
     # environment:
     #   - MONGO_INITDB_ROOT_USERNAME=$MONGODB_USER
     #   - MONGO_INITDB_ROOT_PASSWORD=$MONGODB_PASSWORD
     ports:
       - 80:80
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
 
-volumes:
-    db:
+networks:
+  bewe-network:
+    external: true
+  # simplenodejs:
+  #   build: ./api
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./api/:/app
+  #     - /app/node_modules
+  #   ports:
+  #     - 9003:9003
+
+# volumes:
+#     db:
   # app:
   #   depends_on:
   #     - mongodb

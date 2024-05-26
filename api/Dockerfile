@@ -4,9 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN yarn
 
-EXPOSE 9003
+EXPOSE 9004
 
 CMD ["npm", "start"]
 
