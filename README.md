@@ -73,7 +73,7 @@ The project has default subsets for generic purpose.
 - Timkot
   - agency
   - agency configurations
-- bewe accoun-
+- bewe account
 
 for migration of your actually data follow the next steps:
 
