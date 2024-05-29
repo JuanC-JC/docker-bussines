@@ -1,0 +1,36 @@
+
+name: bewe-saas
+
+services:
+
+  backend:
+    build: ../../backend/
+    restart: unless-stopped
+    container_name: bw-backend
+    ports:
+      - 9002:9002
+    volumes:
+      - ../../backend/:/app/
+      - /app/node_modules
+    command: "npm run dev"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
+
+  nginx:
+    build: ./nginx/
+    restart: unless-stopped
+    container_name: bw-nginx
+    depends_on:
+      - backend
+    ports:
+      - 80:80
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
+
+networks:
+  bewe-network:
+    external: true

@@ -52,9 +52,10 @@ on this case you can use the service from your host machine, but we can't forget
 
 ## 2. Run core technologies
 
-Init docker compose with this project.
+Init Bewe core, docker compose with this project.
 
 ```sh
+cd {{docker-manager-folder}}/core/
 docker compose up
 ```
 
@@ -64,7 +65,15 @@ this repo is design to run the main infraestructure for all the projects on bewe
 
 - Redis
 - Mongodb
-- Nginx
+
+Init Saas
+
+```sh
+cd {{docker-manager-folder}}/saas/
+docker compose up
+```
+
+> **Note**: this compose file can exists or move to backend to execute
 
 ### 2.1 Mongodb population
 
@@ -111,10 +120,9 @@ services:
         build: ./
         ports:
             - ${NODE_PORT}:${NODE_PORT}
-        container_name: api
         volumes:
-            - ./:/var/www/app
-            - /var/www/app/node_modules
+            - ./:/app
+            - /app/node_modules
         restart: always
         environment:
             PORT: ${NODE_PORT}
