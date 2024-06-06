@@ -1,0 +1,23 @@
+
+name: bewe-services
+
+services:
+
+  stargate:
+    build: ${HOME}/bewe/stargate/
+    restart: unless-stopped
+    container_name: bw-stargate
+    ports:
+      - 3000:3000
+    volumes:
+      - ${HOME}/bewe/stargate/:/app/
+      - /app/node_modules
+    command: "npm run dev"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
+
+networks:
+  bewe-network:
+    external: true

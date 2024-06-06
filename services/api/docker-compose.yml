@@ -1,0 +1,18 @@
+services:
+  bewe-api:
+    build: ${HOME}/bewe/api/
+    container_name: bw-api
+    command: npm run dev
+    volumes:
+      - ${HOME}/bewe/api/:/app/
+      - /app/node_modules
+    ports:
+      - 1667:1667
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    networks:
+      - bewe-network
+
+networks:
+  bewe-network:
+    external: true
