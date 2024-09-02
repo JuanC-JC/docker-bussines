@@ -10,7 +10,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ${HOME}/bewe/stargate/:/app/
+      - ../../../stargate/:/app/
       - /app/node_modules
     command: "npm run dev"
     extra_hosts:

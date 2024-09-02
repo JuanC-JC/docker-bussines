@@ -1,16 +1,18 @@
+
 name: bewe-services
 
 services:
-  bewe-api:
+
+  backend-copy:
+    build: ../../../backend-copy/
     restart: unless-stopped
-    build: ${HOME}/bewe/api/
-    container_name: bw-api
-    command: npm run dev
-    volumes:
-      - ${HOME}/bewe/api/:/app/
-      - /app/node_modules
+    container_name: bw-backend-copy
     ports:
-      - 1667:1667
+      - 9003:9003
+    volumes:
+      - ../../../backend-copy/:/app/
+      - /app/node_modules
+    command: "npm run dev"
     extra_hosts:
       - host.docker.internal:host-gateway
     networks:
