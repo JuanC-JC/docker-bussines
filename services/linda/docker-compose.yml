@@ -1,18 +1,16 @@
-
 name: bewe-services
 
 services:
-
-  backend:
-    build: ~/bewe/backend
+  bewe-api:
     restart: unless-stopped
-    container_name: bw-backend
-    ports:
-      - 9003:9003
+    build: ${HOME}/bewe/linda/
+    container_name: bw-linda
+    command: npm run dev
     volumes:
-      - ~/bewe/backend/:/app/
+      - ${HOME}/bewe/linda/:/app/
       - /app/node_modules
-    command: "npm run dev"
+    ports:
+      - 9010:9010
     extra_hosts:
       - host.docker.internal:host-gateway
     networks:
