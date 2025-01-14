@@ -25,6 +25,15 @@ services:
     networks:
       - bewe-network
 
+  rabbit:
+    container_name: mq-rabbit
+    image: rabbitmq:3-management
+    ports:
+      - '5672:5672'
+      - '8088:15672'
+    networks:
+      - bewe-network
+
 networks:
   bewe-network:
     external: true
