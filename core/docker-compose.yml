@@ -27,12 +27,28 @@ services:
 
   rabbit:
     container_name: mq-rabbit
+    restart: unless-stopped
     image: rabbitmq:3-management
     ports:
       - '5672:5672'
       - '8088:15672'
     networks:
       - bewe-network
+  postgresql:
+    image: pgvector/pgvector:0.8.0-pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5433:5432
+    volumes:
+      - pgdata-bewe:/var/lib/postgresql
+
+
+volumes:
+  pgdata-bewe:
 
 networks:
   bewe-network:
